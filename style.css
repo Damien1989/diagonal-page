@@ -1,0 +1,74 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global */
+
+body {
+    font-family: Open sans, Helvetica, sans-serif;
+    background-color: #111;
+}
+
+h1, h2 {
+    font-family: Raleway, sans-serif;
+
+}
+
+.clipped-video-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.text-section {
+    background-color: #111;
+    text-align: center;
+}
+
+.text-section h1,
+.text-section h2 {
+    font-size: 30px;
+    color: #f1f1f1;
+}
+
+.text-section p {
+    max-width: 500px;
+    color: #b5b5b5;
+    line-height: 1.6;
+    margin: 20px 0 auto;
+}
+
+.clipped-section video {
+    width: 100%;
+    border: 10px solid #111;
+}
+
+.text-section-1 {
+    padding: 65px 10px 50px;
+}
+
+.clipped-section {
+    background-color: #ff742e;
+    padding: 80px 10px 120px;
+    color: #111;
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%)
+}
+
+.clipped-section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.text-section-2 {
+    padding: 40px 10px 70px;
+}
+
+@counter-style benefits-list {
+    system: cyclic;
+    symbols: "💸" "🧠" "💖" "🕺" "➕";
+    suffix: " ";
+}
